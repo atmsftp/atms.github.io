@@ -1,0 +1,178 @@
+body
+{
+height: 100%;
+width: 100%;
+background-image:url('Images/gradient2.png');
+background-repeat:repeat-x;
+}
+.scrollit {
+    overflow:scroll;
+    height:100px;
+}
+
+div.background
+  {
+  
+  width:500px;
+  height:300px;
+  background:url(Images/ats.jpg);
+  margin: 10px;
+  border:0px solid black;
+  background-position: center center;
+  }
+
+#table-wrapper {
+  position:relative;
+}
+#table-scroll {
+  height:150px;
+  overflow:auto;  
+  margin-top:20px;
+}
+
+div.transbox
+  {
+  
+  width:400px;
+  height:200px;
+ background-color:#ffffff;
+  border:1px solid black;
+  opacity:0.6;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+  background-position: center center;
+  }
+div.transbox p
+  {
+  position: center;
+  font-weight:bold;
+  color:#000000;
+  }
+
+#error
+{
+color:#D8000C;
+}
+										/* For Search */
+#Search
+{
+width:1280px;
+margin: 10px;
+border: 2px solid black;
+padding:10px;
+position: center;
+text-align: center;
+}
+#SearchData
+{
+text-align: center;
+border:1px solid black;
+}
+
+
+										/* For Reciept */
+#receipt
+{
+width: 630px;
+margin: 10px;
+border: 2px solid black;
+padding:10px;
+position: center;
+text-align: center;
+background: white;
+}
+#table1
+{
+width: 630px;
+background-color: white;
+border:1px solid black;
+text-align: center;
+position: center;
+border-collapse: collapse;
+}
+#tdHeading
+{
+width:100px;
+text-align: center;
+border:1px solid black;
+}
+#tdData
+{
+width:150px;
+text-align: center;
+border: 1px solid black;
+}
+
+
+
+
+
+
+#ex
+{
+border:1 solid black;
+width:220px;
+}
+#outer
+{
+position: center;
+width: 80%;
+height: 50%;
+padding: 5px;
+border: 2px solid blue;
+margin: 5px;
+}
+#bg
+{
+
+background: BLUE;
+}
+div.topleft
+{
+width: 60%;
+height: 55%;
+position: topleft;
+}
+div.bottom
+{
+width: 100%;
+height: 5%;
+position: topbottom;
+}
+#formHeader
+{
+width:60%;
+height:5%;
+border:1px solid black;
+background:white;
+}
+
+
+#formHeading
+{
+position:center;
+background: yellow;
+font: bold;
+width:17%;
+border:1px solid black;
+}
+
+#dataHeading
+{
+
+width:35%;
+border:1px solid black;
+}
+#formSign
+{
+background: Yellow;
+height:17%;
+width:17%;
+border:1px solid black;
+}
+#outer1
+{
+border: 2px solid black;
+background: solid white;
+padding:  5px;
+margin: 5px;
+}
